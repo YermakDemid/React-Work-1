@@ -1,0 +1,38 @@
+.statistics {
+  background: #ececec;
+  max-width: 600px;
+  width: 100%;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  &__item {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 10px;
+  }
+
+  &__label,
+  &__percentage {
+    line-height: 1.2;
+  }
+
+  &__label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__percentage {
+    font-size: 24px;
+  }
+}

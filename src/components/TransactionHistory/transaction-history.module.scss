@@ -1,0 +1,39 @@
+.transaction-history {
+  max-width: 800px;
+  width: 100%;
+  border-collapse: collapse;
+
+  tr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+  thead {
+    background: #58d0ff;
+    color: white;
+
+    td {
+      color: white;
+      font-weight: 600;
+    }
+  }
+
+  tbody {
+    td {
+      color: gray;
+    }
+
+    tr:nth-child(even) {
+      background: #f3f3f3;
+    }
+  }
+
+  td,
+  th {
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    padding: 20px 15px;
+  }
+}
